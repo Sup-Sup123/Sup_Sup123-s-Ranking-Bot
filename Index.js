@@ -27,8 +27,8 @@ client.on('ready', () => {
 
 client.on('message', message => {
   // Here is where you need to code
-  if(message.content == "command trigger") {
-    message.channel.send("message you want to put here");
+  if(message.content == "t") {
+    message.channel.send("@everyone [T] Training! Come to the Training Center for a chane at a Promotion!! https://www.roblox.com/games/4368863292/Mano-County-Training-Center");
   }
 });
 
